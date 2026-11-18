@@ -18,10 +18,6 @@ This repository accompanies the survey:
 </p>
 <p align="center"><em>Taxonomy of Urban State Representation. Platforms write to a shared, georeferenced, layered state; tasks read from it. Vector versions: <a href="assets/usr_taxonomy.svg">SVG</a>, <a href="assets/usr_taxonomy.pdf">PDF</a>.</em></p>
 
-## News
-
-- **[2026-11]** Camera-ready version, supplementary material, data tables, and USR-5 code released.
-- **[2026-10]** Survey accepted to the UrbanState Workshop at WACV 2027.
 
 ## Abstract
 
