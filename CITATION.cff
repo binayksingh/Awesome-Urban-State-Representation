@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this list, the data, or the USR-5 protocol, please cite the survey below."
+title: "Awesome Urban State Representation"
+repository-code: "https://github.com/binayksingh/Awesome-Urban-State-Representation"
+license: CC-BY-4.0
+authors:
+  - family-names: "Singh"
+    given-names: "Binay Kumar"
+    affiliation: "University of Central Florida"
+  - family-names: "Da Vitoria Lobo"
+    given-names: "Niels"
+    affiliation: "University of Central Florida"
+preferred-citation:
+  type: conference-paper
+  title: "Urban State Representation for Autonomous Mobility: A Survey of Multimodal Perception, Architectures, Datasets, and Benchmarks"
+  authors:
+    - family-names: "Singh"
+      given-names: "Binay Kumar"
+    - family-names: "Da Vitoria Lobo"
+      given-names: "Niels"
+  collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)"
+  year: 2027
