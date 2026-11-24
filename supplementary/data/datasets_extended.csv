@@ -1,0 +1,27 @@
+Setting,Dataset,Year,Modalities,Scale,Region,Primary tasks,Ego,Infrastructure,Aerial,Traces,Multi-vehicle,Synthetic,USR5_T1_candidate,USR5_T2_candidate,USR5_T5_candidate,bibkey
+Ego-centric,KITTI,2012,"C, L, IMU",~15k annotated frames,Karlsruhe (DE),"3D detection, tracking, stereo, odometry",1,0,0,0,0,0,0,0,0,geiger2012kitti
+Ego-centric,Cityscapes,2016,C (stereo),5k fine + 20k coarse images,50 cities (EU),Semantic / instance segmentation,1,0,0,0,0,0,0,0,1,cordts2016cityscapes
+Ego-centric,nuScenes,2020,"6C, 1L, 5R","1k scenes, 40k keyframes","Boston, Singapore","Detection, tracking, prediction, segmentation",1,0,0,0,0,0,0,1,1,caesar2020nuscenes
+Ego-centric,Waymo Open,2020,"5C, 5L","1,150 scenes",3 US cities,"2D/3D detection, tracking",1,0,0,0,0,0,0,1,1,sun2020waymo
+Ego-centric,BDD100K,2020,"C, G (dashcam)",100k videos,"NYC, SF Bay Area (US)","Detection, segmentation, lanes, drivable area, tracking",1,0,0,1,0,0,0,1,1,yu2020bdd100k
+Ego-centric,WOMD,2021,"Boxes, map",>100k 20 s scenes,6 US cities,Interactive motion forecasting,1,0,0,0,0,0,0,0,1,ettinger2021womd
+Ego-centric,Argoverse 2,2021,"C, L, map","1k sensor logs, 250k motion scenarios",6 US cities,"Detection, tracking, forecasting",1,0,0,0,0,0,0,1,1,wilson2021argoverse2
+Ego-centric,Occ3D,2023,"C, L (derived)",nuScenes + Waymo,Multi-city,Semantic 3D occupancy,1,0,0,0,0,0,0,0,0,tian2023occ3d
+Conditions,ACDC,2021,C,"4,006 images",Switzerland,"Segmentation in fog, night, rain, snow",1,0,0,0,0,0,0,0,1,sakaridis2021acdc
+Conditions,K-Radar,2022,"4DR, C, L",35k frames,South Korea,All-weather 3D detection,1,0,0,0,0,0,0,0,1,paek2022kradar
+Cooperative,OPV2V,2022,"C, L (sim)","11.5k frames, >70 scenes",CARLA,V2V cooperative detection,1,0,0,0,1,1,1,0,0,xu2022opv2v
+Cooperative,DAIR-V2X,2022,"C, L",71k frames,Beijing (CN),V2I cooperative 3D detection,1,1,0,0,0,0,1,0,0,yu2022dairv2x
+Cooperative,V2V4Real,2023,"C, L",20k LiDAR frames,Ohio (US),"Real V2V detection, tracking, sim2real",1,0,0,0,1,0,1,0,0,xu2023v2v4real
+Cooperative,V2X-Seq,2023,"C, L, map",15k frames + 210k scenarios,Beijing (CN),V2I tracking and forecasting,1,1,0,0,0,0,1,0,0,yu2023v2xseq
+Cooperative,TUMTraf V2X,2024,"C, L","2k point clouds, 5k images",Munich (DE),V2I detection and tracking,1,1,0,0,0,0,1,0,0,zimmer2024tumtraf
+Aerial & satellite,highD,2018,C (drone),"110k vehicles, 16.5 h",German highways,Naturalistic trajectories,0,0,1,0,0,0,0,0,0,krajewski2018highd
+Aerial & satellite,VisDrone,2022,C (drone),263 clips + 10k images,14 cities (CN),Aerial detection and tracking,0,0,1,0,0,0,0,0,0,zhu2022visdrone
+Aerial & satellite,DeepGlobe,2018,C (satellite),"Road, building, land-cover tiles",Multi-country,"Road extraction, land-cover segmentation",0,0,1,0,0,0,0,0,0,demir2018deepglobe
+Aerial & satellite,MatrixCity,2023,C (sim),~519k aerial + street images,Synthetic city,City-scale neural rendering,1,0,1,0,0,1,0,0,0,li2023matrixcity
+Traces,GeoLife,2010,G,"17.6k trajectories, 182 users",Beijing (CN),"Mobility mining, mode inference",0,0,0,1,0,0,0,0,0,zheng2010geolife
+Traces,METR-LA,2018,Lp,"207 sensors, 4 months",Los Angeles (US),Traffic-state forecasting,0,0,0,1,0,0,0,0,0,li2018dcrnn
+Planning & language,CARLA,2017,"C, L, R (sim)",Simulator,Synthetic towns,Closed-loop driving,1,0,0,0,0,1,0,0,0,dosovitskiy2017carla
+Planning & language,nuPlan,2021,"C, L","~1,500 h driving",4 cities,Closed-loop planning,1,0,0,0,0,0,0,0,1,caesar2021nuplan
+Planning & language,NAVSIM,2024,"C, L",nuPlan-derived,4 cities,Non-reactive pseudo-simulation (PDMS),1,0,0,0,0,0,0,0,0,dauner2024navsim
+Planning & language,Bench2Drive,2024,"C, L, R (sim)","2M frames, 220 routes",CARLA,"Closed-loop end-to-end, 44 scenarios",1,0,0,0,0,1,0,0,0,jia2024bench2drive
+Planning & language,DriveLM,2024,"C, Q",nuScenes + CARLA,Multi,"Graph VQA, explainable planning",1,0,0,0,0,0,0,0,0,sima2024drivelm

@@ -1,0 +1,23 @@
+Benchmark,Split,Method,Input,Metric,Value,Reported in (bibkey),Status,Used in main paper
+Occ3D-nuScenes,val,BEVFormer,C,mIoU,26.88,tian2023occ3d,re-evaluated,Tab. 8
+Occ3D-nuScenes,val,CTF-Occ,C,mIoU,28.53,tian2023occ3d,original,Tab. 8
+Occ3D-nuScenes,val,SurroundOcc,C,mIoU,37.18,hou2024fastocc,re-evaluated,Tab. 8
+Occ3D-nuScenes,val,FastOcc,C,mIoU,39.21,hou2024fastocc,original,Tab. 8
+WOMD,test,MTR,Tracks,mAP / minADE,0.413 / 0.605,shi2022mtr,original,Tab. 8
+DAIR-V2X (V2I),--,No collaboration,L,AP@0.5 / 0.7,50.0 / 43.6,hu2022where2comm,re-evaluated,"Tab. 8, USR-5 T1"
+DAIR-V2X (V2I),--,Late fusion,L,AP@0.5 / 0.7,53.1 / 37.9,hu2022where2comm,re-evaluated,Tab. 8
+DAIR-V2X (V2I),--,V2X-ViT,L,AP@0.5 / 0.7,54.3 / 43.4,hu2022where2comm,re-evaluated,Tab. 8
+DAIR-V2X (V2I),--,Where2comm,L,AP@0.5 / 0.7,63.7 / 48.9,hu2022where2comm,original,"Tab. 8, USR-5 T1"
+NAVSIM,navtest,UniAD,C,PDMS,83.4,liao2025diffusiondrive,as listed,Tab. 8
+NAVSIM,navtest,TransFuser,C+L,PDMS,84.0,liao2025diffusiondrive,as listed,Tab. 8
+NAVSIM,navtest,DiffusionDrive,C+L,PDMS,88.1,liao2025diffusiondrive,original,Tab. 8
+Bench2Drive,closed loop,VAD,C,Driving score,42.35,jia2024bench2drive,benchmark baseline,Tab. 8
+Bench2Drive,closed loop,UniAD-Base,C,Driving score,45.81,jia2024bench2drive,benchmark baseline,Tab. 8
+nuScenes,test,FCOS3D,C,NDS,42.8,wang2023streampetr,as listed,Fig. 3
+nuScenes,test,DETR3D,C,NDS,47.9,wang2021detr3d,original,Fig. 3
+nuScenes,test,BEVFormer,C,NDS,56.9,li2022bevformer,original,Fig. 3
+nuScenes,test,StreamPETR,C,NDS,67.6,wang2023streampetr,original,Fig. 3
+nuScenes,test,CenterPoint,L,NDS,67.3,yin2021centerpoint,original,Fig. 3
+nuScenes,test,TransFusion-L,L,NDS,70.2,bai2022transfusion,original,Fig. 3
+nuScenes,test,TransFusion,C+L,NDS,71.7,bai2022transfusion,original,Fig. 3
+nuScenes,test,BEVFusion,C+L,NDS,72.9,liu2023bevfusion,original,Fig. 3

@@ -1,0 +1,41 @@
+Family,Desideratum,Mark,Rationale
+BEV grid,D1,met,"Any posed camera, LiDAR, or radar can be projected or splatted onto the ground plane; V2X methods fuse BEV maps from other agents."
+BEV grid,D2,met,"Detection, map segmentation, and motion heads share one BEV feature map."
+BEV grid,D3,partial,The grid is ego-centric with a fixed extent; temporal attention keeps only a short history.
+BEV grid,D4,partial,"Most heads output scores, not calibrated per-cell uncertainty; confidence maps exist in some variants."
+BEV grid,D5,partial,Dense grids grow with area; confidence-driven sparse messages reduce bandwidth.
+3D occupancy,D1,met,Voxels in a shared frame can be filled from any posed sensor.
+3D occupancy,D2,met,"Semantic occupancy supports segmentation, planning, and forecasting."
+3D occupancy,D3,partial,"Predictions are usually per frame or short-history, not accumulated across traversals."
+3D occupancy,D4,partial,"Visibility masks and probabilistic variants exist, but per-voxel calibrated uncertainty is uncommon."
+3D occupancy,D5,not met,Memory is cubic in extent; Gaussian and sparse variants mitigate but are not yet typical.
+Vectorized map,D1,met,Polylines live in a map frame and can be contributed by any platform that observes lanes.
+Vectorized map,D2,partial,Vectors serve planning and prediction but carry no appearance or dynamic agents.
+Vectorized map,D3,met,Map elements persist across trips and form the static layer.
+Vectorized map,D4,partial,Few online mappers output per-element uncertainty.
+Vectorized map,D5,met,A few points per element; compact for storage and transmission.
+Neural field / 3DGS,D1,partial,Writing requires posed images and usually per-scene optimization; feed-forward variants are emerging.
+Neural field / 3DGS,D2,partial,Mainly rendering and simulation; few task heads read the field directly.
+Neural field / 3DGS,D3,met,"A reconstructed scene is a persistent, georeferenceable asset."
+Neural field / 3DGS,D4,not met,Typical pipelines output no uncertainty.
+Neural field / 3DGS,D5,partial,"Block decomposition scales to city blocks, but memory and fitting cost remain high."
+Scene graph,D1,met,"Nodes for agents, lanes, and signals can come from any platform's detections."
+Scene graph,D2,met,"Graph-structured QA drives perception, prediction, and planning answers."
+Scene graph,D3,partial,Graphs are usually built per frame or per clip.
+Scene graph,D4,not met,Edges and nodes rarely carry calibrated uncertainty.
+Scene graph,D5,met,Symbolic and compact.
+Language tokens,D1,partial,Writing needs a vision-language model per platform; non-image modalities are rarely supported.
+Language tokens,D2,met,"Description, QA, and planning share the same tokens."
+Language tokens,D3,not met,Text is neither georeferenced nor persistent across trips.
+Language tokens,D4,not met,Generated text carries no calibrated uncertainty and can hallucinate.
+Language tokens,D5,met,"Tokens are compact to store and send (latency is the cost, see main Tab. 4)."
+World-model latent,D1,not met,The latent is specific to one trained model and ego viewpoint.
+World-model latent,D2,partial,Generation and planning read it; other perception heads rarely do.
+World-model latent,D3,not met,Latents are not map-anchored or reused across traversals.
+World-model latent,D4,partial,"Sampling yields a distribution over futures, but not calibrated per-element uncertainty."
+World-model latent,D5,partial,"The latent is compact, but video generation is expensive."
+Road-network graph,D1,partial,Loop detectors and map-matched traces write it; onboard perception rarely does.
+Road-network graph,D2,partial,"Speed, flow, and demand forecasts share it, but not perception tasks."
+Road-network graph,D3,met,The graph is fixed to the road network and persists.
+Road-network graph,D4,partial,Probabilistic forecasting is possible but not the norm in the cited models.
+Road-network graph,D5,met,"Signals on nodes and edges scale with network size, not area."

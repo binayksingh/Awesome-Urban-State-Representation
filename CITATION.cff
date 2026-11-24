@@ -3,6 +3,10 @@ message: "If you use this list, the data, or the USR-5 protocol, please cite the
 title: "Awesome Urban State Representation"
 repository-code: "https://github.com/binayksingh/Awesome-Urban-State-Representation"
 license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2611.28129"
+    description: "arXiv preprint"
 authors:
   - family-names: "Singh"
     given-names: "Binay Kumar"
@@ -20,3 +24,5 @@ preferred-citation:
       given-names: "Niels"
   collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)"
   year: 2027
+  doi: "10.48550/arXiv.2611.28129"
+  url: "https://arxiv.org/abs/2611.28129"

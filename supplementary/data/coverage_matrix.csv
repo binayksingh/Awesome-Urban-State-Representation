@@ -1,0 +1,11 @@
+Platform A,Platform B,Count,Datasets
+Ego,Ego,21,ACDC; Argoverse 2; BDD100K; Bench2Drive; CARLA; Cityscapes; DAIR-V2X; DriveLM; K-Radar; KITTI; MatrixCity; NAVSIM; OPV2V; Occ3D; TUMTraf V2X; V2V4Real; V2X-Seq; WOMD; Waymo Open; nuPlan; nuScenes
+Ego,Infra,3,DAIR-V2X; TUMTraf V2X; V2X-Seq
+Ego,Aerial,1,MatrixCity
+Ego,Traces,1,BDD100K
+Infra,Infra,3,DAIR-V2X; TUMTraf V2X; V2X-Seq
+Infra,Aerial,0,
+Infra,Traces,0,
+Aerial,Aerial,4,DeepGlobe; MatrixCity; VisDrone; highD
+Aerial,Traces,0,
+Traces,Traces,3,BDD100K; GeoLife; METR-LA

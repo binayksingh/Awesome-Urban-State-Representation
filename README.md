@@ -1,7 +1,6 @@
 # Awesome Urban State Representation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<!-- After arXiv: uncomment the badge below and replace XXXX.XXXXX with the arXiv ID -->
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2611.28129-b31b1b.svg)](https://arxiv.org/abs/2611.28129)
 [![Workshop](https://img.shields.io/badge/WACV%202027-UrbanState%20Workshop-1f6feb.svg)](#citation)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -11,7 +10,7 @@ This repository accompanies the survey:
 
 > **Urban State Representation for Autonomous Mobility: A Survey of Multimodal Perception, Architectures, Datasets, and Benchmarks**<br>
 > Binay Kumar Singh, Niels Da Vitoria Lobo · University of Central Florida<br>
-> *UrbanState Workshop at WACV 2027* · Paper https://doi.org/10.48550/arXiv.2611.28129 · [Supplementary](supplementary/supplementary.pdf) · [BibTeX](#citation)
+> *UrbanState Workshop at WACV 2027* · [Paper (arXiv)](https://arxiv.org/abs/2611.28129) · [Supplementary](supplementary/supplementary.pdf) · [BibTeX](#citation)
 
 <p align="center">
   <a href="assets/usr_taxonomy.pdf"><img src="assets/usr_taxonomy.png" width="100%" alt="Figure 1: Taxonomy of Urban State Representation"></a>
@@ -277,7 +276,7 @@ If you find this survey or repository useful, please cite:
   archivePrefix = {arXiv},
   primaryClass  = {cs.CV},
   doi           = {10.48550/arXiv.2611.28129},
-  url           = {https://arxiv.org}
+  url           = {https://arxiv.org/abs/2611.28129}
 }
 
 ```
