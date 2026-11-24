@@ -11,7 +11,7 @@ This repository accompanies the survey:
 
 > **Urban State Representation for Autonomous Mobility: A Survey of Multimodal Perception, Architectures, Datasets, and Benchmarks**<br>
 > Binay Kumar Singh, Niels Da Vitoria Lobo · University of Central Florida<br>
-> *UrbanState Workshop at WACV 2027* · Paper (arXiv link coming soon) · [Supplementary](supplementary/supplementary.pdf) · [BibTeX](#citation)
+> *UrbanState Workshop at WACV 2027* · Paper https://doi.org/10.48550/arXiv.2611.28129 · [Supplementary](supplementary/supplementary.pdf) · [BibTeX](#citation)
 
 <p align="center">
   <img src="assets/usr_taxonomy.png" width="100%" alt="Taxonomy of Urban State Representation">
