@@ -14,9 +14,10 @@ This repository accompanies the survey:
 > *UrbanState Workshop at WACV 2027* · Paper https://doi.org/10.48550/arXiv.2611.28129 · [Supplementary](supplementary/supplementary.pdf) · [BibTeX](#citation)
 
 <p align="center">
-  <img src="assets/usr_taxonomy.png" width="100%" alt="Taxonomy of Urban State Representation">
+  <a href="assets/usr_taxonomy.pdf"><img src="assets/usr_taxonomy.png" width="100%" alt="Figure 1: Taxonomy of Urban State Representation"></a>
 </p>
-<p align="center"><em>Taxonomy of Urban State Representation. Platforms write to a shared, georeferenced, layered state; tasks read from it. Vector versions: <a href="assets/usr_taxonomy.svg">SVG</a>, <a href="assets/usr_taxonomy.pdf">PDF</a>.</em></p>
+<p align="center"><em><b>Figure 1. Taxonomy of Urban State Representation (USR).</b> Heterogeneous platforms <b>write</b> to a shared, georeferenced, layered state S<sub>t</sub> through encoders and fusion operators. Downstream tasks and applications <b>read</b> from it, and datasets and protocols evaluate the whole chain. The bottom band lists challenges that cut across all stages.</em><br>
+<sub>Vector versions: <a href="assets/usr_taxonomy.svg">SVG</a> · <a href="assets/usr_taxonomy.pdf">PDF</a> · LaTeX/TikZ source: <a href="assets/usr_taxonomy.tex">usr_taxonomy.tex</a></sub></p>
 
 
 ## Abstract
